@@ -1,0 +1,1 @@
+console.log("Welcome to {{projectName}} powered by Najumi")
