@@ -1,0 +1,38 @@
+{
+"name": "najumi-blog-template",
+"type": "blog",
+"description": "Blog starter template for Najumi.js",
+"version": "1.0.0",
+
+"structure": {
+
+"folders": [
+
+  "src",
+  "src/pages",
+  "src/components",
+  "src/store",
+  "src/api",
+  "public"
+
+],
+
+"files": [
+
+  "package.json",
+  "najumi.config.js",
+  ".env.example",
+  "public/index.html",
+  "src/app.js",
+  "src/pages/index.js",
+  "src/pages/post.js",
+  "src/components/navbar.js",
+  "src/components/post-card.js",
+  "src/store/blog-store.js",
+  "src/api/posts.js"
+
+]
+
+}
+
+}
