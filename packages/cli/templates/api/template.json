@@ -1,0 +1,46 @@
+{
+"name": "api",
+"displayName": "Najumi API Server",
+"description": "Starter template for building a backend API service with Najumi.js",
+"type": "backend",
+"version": "1.0.0",
+"framework": "najumi",
+"minimumNajumiVersion": "1.0.0",
+
+"features": [
+"backend",
+"api",
+"services",
+"authentication-ready",
+"database-ready"
+],
+
+"structure": {
+"src/api": "API route handlers",
+"src/services": "Business logic services",
+"src/index.js": "Application entry point",
+"najumi.config.js": "Najumi configuration",
+".env.example": "Environment variables template"
+},
+
+"scripts": {
+"dev": "najumi dev",
+"build": "najumi build",
+"start": "najumi start"
+},
+
+"postCreateInstructions": [
+"cd {{projectName}}",
+"najumi dev"
+],
+
+"tags": [
+"api",
+"backend",
+"najumi",
+"rest"
+],
+
+"author": "Najumi Tech",
+"license": "MIT"
+}
