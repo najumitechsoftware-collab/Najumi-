@@ -1,0 +1,47 @@
+{
+"name": "ecommerce",
+"displayName": "Najumi Ecommerce Starter",
+"description": "Starter template for building ecommerce stores with product catalog, cart and checkout using Najumi.js",
+"type": "fullstack",
+"version": "1.0.0",
+"framework": "najumi",
+"minimumNajumiVersion": "1.0.0",
+
+"features": [
+"storefront",
+"product-catalog",
+"shopping-cart",
+"checkout",
+"api",
+"services"
+],
+
+"structure": {
+"src/pages": "Store pages such as products and checkout",
+"src/components": "Reusable store UI components",
+"src/api": "Store backend endpoints",
+"src/services": "Business logic for store operations",
+"public": "Static storefront assets"
+},
+
+"scripts": {
+"dev": "najumi dev",
+"build": "najumi build",
+"start": "najumi start"
+},
+
+"postCreateInstructions": [
+"cd {{projectName}}",
+"najumi dev"
+],
+
+"tags": [
+"ecommerce",
+"store",
+"shopping",
+"najumi"
+],
+
+"author": "Najumi Tech",
+"license": "MIT"
+}
