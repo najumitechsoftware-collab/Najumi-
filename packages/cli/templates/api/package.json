@@ -1,0 +1,49 @@
+{
+"name": "{{projectName}}",
+"version": "1.0.0",
+"private": true,
+
+"description": "Backend API service built with the Najumi.js framework",
+
+"keywords": [
+"najumi",
+"najumi-js",
+"api",
+"backend",
+"rest",
+"microservice"
+],
+
+"author": "Najumi Tech",
+
+"license": "MIT",
+
+"type": "module",
+
+"engines": {
+"node": ">=20.0.0"
+},
+
+"scripts": {
+
+"dev": "najumi dev",
+
+"build": "najumi build",
+
+"start": "najumi start",
+
+"lint": "echo \"Linting not configured yet\"",
+
+"test": "echo \"Tests not configured yet\""
+
+},
+
+"dependencies": {
+
+},
+
+"devDependencies": {
+
+}
+
+}
