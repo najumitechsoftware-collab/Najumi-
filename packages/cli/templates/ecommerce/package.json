@@ -1,0 +1,50 @@
+{
+"name": "{{projectName}}",
+"version": "1.0.0",
+"private": true,
+
+"description": "Ecommerce store built with the Najumi.js framework",
+
+"keywords": [
+"najumi",
+"ecommerce",
+"online-store",
+"shopping-cart",
+"web-store"
+],
+
+"author": "Najumi Tech",
+
+"license": "MIT",
+
+"type": "module",
+
+"engines": {
+"node": ">=20.0.0"
+},
+
+"scripts": {
+
+"dev": "najumi dev",
+
+"build": "najumi build",
+
+"start": "najumi start",
+
+"preview": "najumi start",
+
+"lint": "echo \"Linting not configured yet\"",
+
+"test": "echo \"Tests not configured yet\""
+
+},
+
+"dependencies": {
+
+},
+
+"devDependencies": {
+
+}
+
+}
