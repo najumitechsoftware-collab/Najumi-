@@ -1,0 +1,49 @@
+{
+"name": "saas",
+"displayName": "Najumi SaaS Starter",
+"description": "Starter template for building SaaS platforms with authentication, dashboard and API using Najumi.js",
+"type": "fullstack",
+"version": "1.0.0",
+"framework": "najumi",
+"minimumNajumiVersion": "1.0.0",
+
+"features": [
+"frontend",
+"backend",
+"authentication",
+"dashboard",
+"api",
+"database",
+"services"
+],
+
+"structure": {
+"src/pages": "Frontend pages including dashboard",
+"src/api": "API endpoints",
+"src/services": "Business logic services",
+"src/components": "Reusable UI components",
+"public": "Static assets",
+"najumi.config.js": "Application configuration"
+},
+
+"scripts": {
+"dev": "najumi dev",
+"build": "najumi build",
+"start": "najumi start"
+},
+
+"postCreateInstructions": [
+"cd {{projectName}}",
+"najumi dev"
+],
+
+"tags": [
+"saas",
+"startup",
+"dashboard",
+"najumi"
+],
+
+"author": "Najumi Tech",
+"license": "MIT"
+}
