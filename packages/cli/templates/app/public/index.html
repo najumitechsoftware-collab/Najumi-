@@ -1,12 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>{{projectName}}</title>
-</head>
-<body>
+<!DOCTYPE html><html lang="en"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>{{projectName}}</title>  <meta name="description" content="Application built with Najumi.js framework">  <meta name="generator" content="Najumi.js">  <style>
 
-<h1>Welcome to {{projectName}}</h1>
-<p>Your Najumi application is running.</p>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
 
-</body>
-</html>
+    #app {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 600px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    p {
+      opacity: 0.8;
+    }
+
+  </style></head><body>  <!-- Najumi App Root -->  <div id="app"><div class="card">
+
+  <h1>🚀 Welcome to {{projectName}}</h1>
+
+  <p>Your Najumi application is running successfully.</p>
+
+  <p>
+    Start building your application inside:
+  </p>
+
+  <code>src/pages/index.js</code>
+
+</div>
+
+  </div></body></html>
