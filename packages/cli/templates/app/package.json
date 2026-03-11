@@ -1,10 +1,51 @@
 {
-  "name": "{{projectName}}",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "najumi dev",
-    "build": "najumi build",
-    "start": "najumi start"
-  }
+"name": "{{projectName}}",
+"version": "1.0.0",
+"private": true,
+
+"description": "A full-stack application built with Najumi.js framework",
+
+"keywords": [
+"najumi",
+"najumi-js",
+"framework",
+"fullstack",
+"web",
+"application"
+],
+
+"author": "Najumi Tech",
+
+"license": "MIT",
+
+"type": "module",
+
+"engines": {
+"node": ">=20.0.0"
+},
+
+"scripts": {
+
+"dev": "najumi dev",
+
+"build": "najumi build",
+
+"start": "najumi start",
+
+"preview": "najumi start",
+
+"lint": "echo \"Linting not configured yet\"",
+
+"test": "echo \"Tests not configured yet\""
+
+},
+
+"dependencies": {
+
+},
+
+"devDependencies": {
+
+}
+
 }
