@@ -1,0 +1,51 @@
+{
+"name": "app",
+"displayName": "Najumi Full Stack App",
+"description": "Starter template for building a full-stack Najumi.js application with frontend, backend APIs, database integration and modular architecture.",
+"type": "application",
+"version": "1.0.0",
+"framework": "najumi",
+"minimumNajumiVersion": "1.0.0",
+
+"features": [
+"frontend",
+"backend",
+"api",
+"database",
+"modules",
+"routing",
+"authentication-ready"
+],
+
+"structure": {
+"src": "Application source code",
+"src/pages": "Frontend page routes",
+"src/api": "Backend API routes",
+"src/components": "Reusable UI components",
+"src/layouts": "Application layouts",
+"modules": "Najumi module system",
+"public": "Static assets",
+"najumi.config.js": "Najumi application configuration"
+},
+
+"scripts": {
+"dev": "najumi dev",
+"build": "najumi build",
+"start": "najumi start"
+},
+
+"postCreateInstructions": [
+"cd {{projectName}}",
+"najumi dev"
+],
+
+"tags": [
+"fullstack",
+"web",
+"starter",
+"najumi"
+],
+
+"author": "Najumi Tech",
+"license": "MIT"
+}
