@@ -1,0 +1,29 @@
+{
+"name": "{{projectName}}",
+"version": "1.0.0",
+"private": true,
+
+"description": "Blog application powered by Najumi.js",
+
+"scripts": {
+
+"dev": "najumi dev",
+
+"build": "najumi build",
+
+"start": "najumi start"
+
+},
+
+"keywords": [
+"najumi",
+"najumi-blog",
+"blog",
+"najumi-framework"
+],
+
+"author": "",
+
+"license": "MIT"
+
+}
