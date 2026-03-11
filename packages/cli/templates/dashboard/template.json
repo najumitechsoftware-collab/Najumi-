@@ -1,0 +1,45 @@
+{
+"name": "dashboard",
+"displayName": "Najumi Dashboard Starter",
+"description": "Admin dashboard starter template for building management panels with Najumi.js",
+"type": "frontend",
+"version": "1.0.0",
+"framework": "najumi",
+"minimumNajumiVersion": "1.0.0",
+
+"features": [
+"dashboard-ui",
+"analytics",
+"admin-panel",
+"component-system",
+"routing"
+],
+
+"structure": {
+"src/pages": "Dashboard pages",
+"src/components": "Reusable UI components",
+"src/services": "Dashboard data services",
+"public": "Static assets"
+},
+
+"scripts": {
+"dev": "najumi dev",
+"build": "najumi build",
+"start": "najumi start"
+},
+
+"postCreateInstructions": [
+"cd {{projectName}}",
+"najumi dev"
+],
+
+"tags": [
+"dashboard",
+"admin",
+"panel",
+"najumi"
+],
+
+"author": "Najumi Tech",
+"license": "MIT"
+}
