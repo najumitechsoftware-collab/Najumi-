@@ -1,0 +1,51 @@
+{
+"name": "{{projectName}}",
+"version": "1.0.0",
+"private": true,
+
+"description": "Admin dashboard built with the Najumi.js framework",
+
+"keywords": [
+"najumi",
+"dashboard",
+"admin-panel",
+"analytics",
+"management",
+"web-app"
+],
+
+"author": "Najumi Tech",
+
+"license": "MIT",
+
+"type": "module",
+
+"engines": {
+"node": ">=20.0.0"
+},
+
+"scripts": {
+
+"dev": "najumi dev",
+
+"build": "najumi build",
+
+"start": "najumi start",
+
+"preview": "najumi start",
+
+"lint": "echo \"Linting not configured yet\"",
+
+"test": "echo \"Tests not configured yet\""
+
+},
+
+"dependencies": {
+
+},
+
+"devDependencies": {
+
+}
+
+}
