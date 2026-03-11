@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>{{projectName}} Dashboard</title>  <meta name="description" content="Admin dashboard built with Najumi.js">  <meta name="generator" content="Najumi.js">  <style>
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    .layout {
+      display: flex;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: #020617;
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    .sidebar a {
+      display: block;
+      margin: 10px 0;
+      color: #94a3b8;
+      text-decoration: none;
+    }
+
+    .main {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cards {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+  </style></head><body>  <div class="layout"><aside class="sidebar">
+
+  <h2>{{projectName}}</h2>
+
+  <nav>
+    <a href="/">Dashboard</a>
+    <a href="/users">Users</a>
+    <a href="/analytics">Analytics</a>
+  </nav>
+
+</aside>
+
+<main class="main">
+
+  <!-- Najumi App Mount -->
+  <div id="app">
+
+    <div class="header">
+
+      <h1>Dashboard</h1>
+
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Users</h3>
+        <p>102</p>
+      </div>
+
+      <div class="card">
+        <h3>Revenue</h3>
+        <p>$4,200</p>
+      </div>
+
+      <div class="card">
+        <h3>Traffic</h3>
+        <p>8,920 visits</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+  </div></body></html>
