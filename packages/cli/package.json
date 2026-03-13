@@ -1,0 +1,8 @@
+{
+  "name": "najumi",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "najumi": "./bin/najumi.js"
+  }
+}
