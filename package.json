@@ -1,0 +1,24 @@
+{
+  "name": "najumi",
+  "version": "1.0.0",
+  "description": "Najumi.js modular full-stack framework",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node packages/cli/src/cli.js",
+    "build": "node packages/cli/src/commands/build.js",
+    "start": "node packages/cli/src/commands/start.js"
+  },
+  "bin": {
+    "najumi": "packages/cli/src/cli.js"
+  },
+  "keywords": [
+    "najumi",
+    "framework",
+    "nodejs",
+    "fullstack"
+  ],
+  "license": "MIT"
+}
