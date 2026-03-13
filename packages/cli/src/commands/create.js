@@ -119,7 +119,9 @@ async function createProject(template, projectName) {
 
   const projectRoot = path.join(process.cwd(), projectName)
   const templatePath = path.join(templatesRoot, template)
-
+console.log("DEBUG CLI ROOT:", cliRoot)
+console.log("DEBUG TEMPLATES ROOT:", templatesRoot)
+console.log("DEBUG TEMPLATE PATH:", templatePath)
   try {
 
     await fs.access(templatePath)
